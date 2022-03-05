@@ -1,0 +1,346 @@
+<!--
+	not really a website. just a hacky solution to generate a PDF the way i want to.
+	so... no rules, great scotch! :party_parrot:
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Nuno Pereira, Front-End Developer</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="TL;DR: HTML, CSS, JavaScript, ReactJS, Next.js, JAMStack & Static Site Generators">
+		<meta name="author" content="Nuno Pereora">
+		<meta property="og:url" content="https://nunopereira.net/cv">
+		<meta property="og:title" content="Nuno Pereira, Front-End Developer">
+		<meta property="og:type" content="website">
+		<meta property="og:description" content="TL;DR: HTML, CSS, JavaScript, ReactJS, Next.js, JAMStack & Static Site Generators">
+		<meta property="og:image" content="https://nunopereira.net/cv/nuno_pereira.jpg">
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="cdeath">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preload" href="nuno_pereira.jpg" as="image" type="image/jpeg">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Oswald:300,400&display=swap" type="text/css">
+		<style type="text/css">
+			*{box-sizing:border-box;margin:0;padding:0;border:0}
+			body{background:#f5f5f5;color:#111;font-family:'Lato',sans-serif;line-height:1.5rem;padding:1rem}
+			a{text-decoration:none;color:#147f94}
+			p{font-size:.875rem;margin-top:2rem}
+			ul{padding-left:1rem}
+			img{width:150px;height:150px;border-radius:50%}
+			h1,header h2{font-family:'Oswald',sans-serif;text-transform:uppercase}
+			header{padding-top:2rem;text-align:center}
+      header h1{color:#111;font-size:2.625rem;line-height:2.375rem;font-weight:400;letter-spacing:1px}
+			header h2{color:#767676;font-weight:300;letter-spacing:.25rem;font-size:1.25rem;margin-top:1rem}
+			header p{text-align:left}
+			section h1{color:#222;font-weight:400;font-size:1rem;vertical-align:bottom}
+			section h2{font-size:1rem;font-weight:900;text-transform:uppercase}
+			section h3{display:inline;font-size:1rem;font-weight:700;text-transform:uppercase}
+			section div{font-size:.875rem}
+			section div:nth-child(odd) .soft{color:#767676}
+			.wrapper{width:100%;max-width:64rem;margin:0 auto;padding:1rem;background:#fff}
+			.grid{font-size:0;margin-bottom:2rem}
+			.grid>*{display:block;vertical-align:top}
+			.grid>*:not(:last-child){margin-bottom:1rem}
+			.grid>*:nth-child(-n+2){padding-top:0}
+			.dt{display:none}
+			.sep{position:relative;border-bottom:2px solid #ccc;vertical-align:bottom;top:-4px}
+			.sep+div{display:none}
+			.date{color:#666}
+			.hidden{display:none}
+			.contacts p{margin:0 0 1rem}
+			.contacts p:last-child{margin:0}
+			@media print, (min-width: 768px) {
+				body{padding:2rem}
+				header{text-align:left}
+				.wrapper{padding:2rem}
+				.grid>*{width:70%}
+				.grid>*:nth-child(odd){width:30%;text-align:right;padding-right:2rem}
+				.grid>h1{margin-bottom:1rem}
+				.grid>*,.sep+div,.dt{display:inline-block}
+			}
+			@media print{
+        html,body{width:210mm;height:296mm;margin:0;padding:0;-webkit-print-color-adjust:exact;color-adjust:exact;background:#fff}
+        .wrapper{max-width:none;margin:0;padding:0 2rem}
+				.page-break-before{page-break-before:always;padding-top:2rem}
+				.page-break-after{page-break-after:always}
+				.grid{margin-bottom:1.5rem}
+			}
+		</style>
+	</head>
+	<body>
+    <div class="wrapper">
+      <header role="banner">
+          <div class="grid page-break-before">
+              <figure><img src="nuno_pereira.jpg" alt="Nuno Pereira"></figure>
+              <div>
+                  <h1>Nuno Pereira</h1>
+                  <h2>Front-End Developer</h2>
+                  <p>
+                      <strong>TL;DR:</strong> HTML, CSS, JavaScript, ReactJS, Next.js, JAMStack & Static Site Generators<br>
+                      WHATWG, W3C, WAI-ARIA, WCAG, Schema.org
+                  </p>
+              </div>
+          </div>
+      </header>
+      <main role="main">
+        <section class="grid">
+          <h1>Who am I?</h1>
+          <div class="sep"></div>
+          <div>&nbsp;</div>
+          <div>
+              I'm a nerd from Lisbon, Portugal.<br>
+              I'm a performance and accessibility enthusiast.<br>
+              I'm a perfectionist with OCD and I love deleting code.<br>
+              I like to fix broken things more than making them from scratch.<br>
+              I like to help others more than doing my own job (unless that's my job).<br>
+              My superpower? I'm weird. I can be super awkward and a real pain in the ass.
+          </div>
+        </section>
+				<section class="grid">
+					<h1>Where can you reach me?</h1>
+					<div class="sep"></div>
+					<div>&nbsp;</div>
+					<div class="contacts">
+						<strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/cdeath" target="_blank" rel="noreferrer">https://www.linkedin.com/in/cdeath</a><br>
+						<strong>GitHub:</strong> <a href="https://github.com/cdeath" target="_blank" rel="noreferrer">https://github.com/cdeath</a><br>
+						<strong>Email:</strong> <a href="mailto:helloworld@nunopereira.net">helloworld@nunopereira.net</a>
+					</div>
+				</section>
+				<section class="grid">
+          <h1>What do i want to do?</h1>
+          <div class="sep"></div>
+          <div>&nbsp;</div>
+          <div>
+            I want to save humanity by eliminating the rage induced by crappy websites.<br>
+						I want to save the planet by reducing the web's bloat.<br>
+            I want to break stuff apart and put it back together with fewer pieces.<br>
+						I want to unshit stuff.
+          </div>
+        </section>
+        <section class="grid page-break-before">
+					<h1>What have i been doing?</h1>
+					<div class="sep"></div>
+					<div class="dt">
+						Where<br>
+						When<br>
+						What
+					</div>
+					<div>
+						<h2>Bright Pixel, S.A.</h2>
+						<span class="date">March 2016 to current date</span><br>
+						Front-End Developer<br>
+						<ul>
+							<li>Web sites and web apps</li>
+							<li>Proofs of concept</li>
+							<li>Startup mentoring</li>
+						</ul>
+					</div>
+					<div class="dt">Worthy</div>
+					<div>
+            <h3>PixelsCamp</h3> &nbsp; &middot; &nbsp; <a href="https://pixels.camp">https://pixels.camp</a><br>
+            PixelsCamp is a 3 day tech conference with a 48h hackathon.
+            It has over 1K participants and it's the most highly anticipated developer event in Portugal.
+            I built and still maintain the conference's website.<br>
+            <br>
+            <h3>Sonae IM</h3> &nbsp; &middot; &nbsp; <a href="https://sonaeim.com">https://sonaeim.com</a><br>
+            Sonae IM is the investment branch of the Sonae group, a multinational company with some leading brands on their portoflio.
+            I built the company's website with a static site generator and a GitHub powered CMS.<br>
+						<br>
+						<h3>Probely</h3> &nbsp; &middot; &nbsp; <a href="https://probely.com">https://probely.com</a><br>
+						Probely an automated cybersecurity audit platform for websites, applications and APIs.
+						I built the company's website and was part of the web application development team.<br>
+						<br>
+            <h3>TAIKAI</h3> &nbsp; &middot; &nbsp; <a href="https://taikai.network">https://taikai.network</a><br>
+            TAIKAI is a hackathon management platform, powered by a fully auditable blockchain voting system.<br>
+            Organizations post challenges for a select or public audience to submit solutions individually or as a team.<br>
+            I did the PoC frontend at PixelsCamp conference and later the 1st version under the TAIKAI brand.<br>
+            <br>
+            <h3>Dott</h3> &nbsp; &middot; &nbsp; <a href="https://dott.pt">https://dott.pt</a><br>
+            Dott is a portuguese e-commerce marketplace.
+            I was part of the initial frontend team and later worked on the Next.js migration.<br>
+            <br>
+            <h3>Bright Pixel</h3> &nbsp; &middot; &nbsp; <a href="https://brpx.com">https://brpx.com</a><br>
+						Bright Pixel is a venture builder studio with both investment and R&D strategies.
+            I built the company's website with a static site generator and a GitHub powered CMS.
+          </div>
+        </section>
+				<section class="grid page-break-before">
+					<div class="dt">
+            Where<br>
+						When<br>
+						What
+					</div>
+					<div>
+						<h2>SAPO</h2>
+						<span class="date">January 2010 to March 2016</span><br>
+						Developer<br>
+						<ul>
+							<li>Web sites and web apps</li>
+							<li>Mobile apps (iOS, Nokia WRT, Windows Mobile, and others)</li>
+							<li>Set-Top-Box and Smart TV apps</li>
+						</ul>
+					</div>
+					<div class="dt">Worthy</div>
+					<div>
+						<h3>SAPO</h3> &nbsp; &middot; &nbsp; <a href="http://www.sapo.pt">https://www.sapo.pt</a> &nbsp; &middot; &nbsp; <a href="https://www.sapo.ao">https://www.sapo.ao</a> &nbsp; &middot; &nbsp; <a href="http://www.sapo.cv">https://www.sapo.cv</a> &nbsp; &middot; &nbsp; <a href="http://www.sapo.mz">https://www.sapo.mz</a><br>
+						SAPO is a large network of portuguese content websites, with SAPO's homepage being one of the highest traffic websites in Portugal. I was SAPO's homepage sole front-end developer from 2013 to 2016.<br>
+						<br>
+            <h3>SAPO24</h3> &nbsp; &middot; &nbsp; <a href="http://24.sapo.pt">https://24.sapo.pt</a><br>
+            SAPO24 is a news aggregator.
+            I refactored and fixed several parts of the website that were not performing well, specially in mobile.<br>
+            <br>
+            <h3>MEO Kanal</h3> &nbsp; &middot; &nbsp; <a href="http://kanal.pt">https://kanal.pt</a><br>
+            MEO Kanal allows IPTV clients to create their own TV channel.
+            I ported the MediaRoom application to a web-based version that ran on satellite set-top-boxes and Smart TVs and also refactored the iOS app.<br>
+						<br>
+						<h3>MEO Interactivo</h3><br>
+            MEO Interactivo is an app and services catalog available on IPTV set-top-boxes.
+            I ported the MediaRoom application to a web-based version that ran on satellite set-top-boxes and Smart TVs.<br>
+						<br>
+            <h3>SAPO Cinema</h3><br>
+            SAPO Cinema was a movie showtimes and theatre information app.
+            I built the web-based version that ran on everything with a web view: Nokia WRT, Windows Mobile, Palm Pre, Chrome Extensions and more.<br>
+					</div>
+        </section>
+        <section class="grid page-break-before">
+          <div class="dt">
+            Where<br>
+            When<br>
+            What
+          </div>
+					<div>
+            <h2>VIEW / ISOBAR</h2>
+						<span class="date">June 2008 to December 2009</span><br>
+            Front-End Developer<br>
+						<ul>
+							<li>Web sites and web apps</li>
+						</ul>
+					</div>
+					<div class="dt">Worthy</div>
+					<div>
+						<h3>SATA</h3> &nbsp; &middot; &nbsp; <a href="http://www.sata.pt">https://sata.pt</a><br>
+            SATA is an airline company based in the Azores. I customized their Drupal and AMADEUS flight booking platform instances.<br>
+						<br>
+						<h3>ESAF / GNBGA</h3> &nbsp; &middot; &nbsp; <a href="https://www.esaf.pt">https://www.esaf.pt</a> &nbsp; &middot; &nbsp; <a href="https://www.gnbga.pt/">https://www.gnbga.pt</a><br>
+            NB Gestão de Activos is Novo Banco's investment management platform. I built their design system.
+					</div>
+				</section>
+				<section class="grid">
+          <div class="dt">
+            Where<br>
+						When<br>
+						What
+					</div>
+					<div>
+            <h2>IOL / MediaCapital</h2>
+						<span class="date">August 2005 to May 2008</span><br>
+            Developer<br>
+						<ul>
+							<li>Ad Operations for DoubleClick Enterprise</li>
+							<li>Interactive rich media ads</li>
+							<li>Email marketing and segmentation targeting</li>
+							<li>Web sites and web apps</li>
+            </ul>
+					</div>
+				</section>
+				<section class="grid">
+					<div class="dt">
+            Where<br>
+						When<br>
+						What<br>
+					</div>
+					<div>
+						<h2>ETIC</h2>
+						<span class="date">January 2005 to August 2005</span><br>
+            Tech Support<br>
+						<ul>
+							<li>Tech and Network support</li>
+							<li>AV equipment support</li>
+            </ul>
+					</div>
+				</section>
+        <section class="grid page-break-before">
+          <h1>Hard skills</h1>
+					<div class="sep"></div>
+					<div></div>
+					<div>
+						<ul>
+							<li>Front-End Development</li>
+							<li>Usability and Acessibility</li>
+							<li>Responsive Web Design</li>
+							<li>Progressive Enhancement</li>
+							<li>Cross-Browser Compliance</li>
+							<li>HTML, CSS, JavaScript, Web APIs</li>
+							<li>Vanilla JS, Next.js, React, jQuery, Jekyll / Liquid, Netlify, Netlify CMS</li>
+							<li>WHATWG, W3C, WCAG, WAI-ARIA, Schema.org</li>
+						</ul>
+					</div>
+				</section>
+				<section class="grid">
+					<h1>Soft skills</h1>
+					<div class="sep"></div>
+					<div></div>
+					<div>
+						I have a creative side too and I'm sensitive to aesthetics, design and usability.<br>
+            I like to observe humans and analyze their behavior. I am very often right about why they do what they do.<br>
+						I need to try and fail before saying something is impossible.<br>
+            I have a problem with the word "problem".
+					</div>
+				</section>
+				<section class="grid">
+					<h1>Tools of the trade</h1>
+					<div class="sep"></div>
+					<div>&nbsp;</div>
+					<div>Visual Studio Code, Git, Sketch, Pixelmator, ImageOptim, ImageAlpha, SVGOMG</div>
+				</section>
+				<section class="grid page-break-before">
+					<h1>Training</h1>
+					<div class="sep"></div>
+					<div class="dt">
+            Where<br>
+						When<br>
+						What<br>
+						Average
+					</div>
+					<div>
+						<h2>ETIC - Escola Técnica de Imagem e Comunicação</h2>
+						<span class="date">September 2001 to July 2004</span><br>
+						Multimedia Engineer Level III<br>
+						17
+					</div>
+				</section>
+				<section class="grid">
+					<h1>Moar stuff</h1>
+					<div class="sep"></div>
+					<div></div>
+					<div>
+						<ul>
+							<li><strong>2019:</strong> I gave a <a href="https://www.youtube.com/watch?v=pcsz25VNnP4" target="_blank" rel="noreferrer">talk</a> about JAMStack at PixelsCamp and also taught JavaScript at <a href="https://etic.pt" target="_blank" rel="noreferrer">ETIC</a> for their web development course.</li>
+							<li><strong>2010:</strong> Took the JavaScript Master Class &amp; Performance Bootcamp with Amy Hoy &amp; Thomas Fuchs.</li>
+							<li><strong>2007:</strong> AJAX programming with PHP, CapEduc (30h).</li>
+							<li>I attended several conferences about programming, web, UX, cybersecurity and privacy.</li>
+							<li>I participated in a few hackathons and got 1st and 2nd place in some of them.</li>
+						</ul>
+					</div>
+				</section>
+				<section class="grid">
+					<h1>So meta</h1>
+					<div class="sep"></div>
+					<div>
+						Main language<br>
+						Other languagues<br>
+						<br>
+						Interests
+					</div>
+					<div>
+						Portuguese<br>
+            English &nbsp;&middot;&nbsp;very good<br>
+            Japanese (Level I) &nbsp;&middot;&nbsp; basic<br>
+						Psychology, Japanese Culture, Pop Culture, Health, Nature, Photography, Fashion, Illustration and Animation, Industrial Design and Architecture, DIY.
+					</div>
+				</section>
+      </main>
+    </div>
+	</body>
+</html>
