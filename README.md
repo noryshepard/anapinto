@@ -1,2 +1,2 @@
-# anapinto.pages.dev
+# anapinto
 the "real" thang
